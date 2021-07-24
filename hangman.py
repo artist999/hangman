@@ -5,7 +5,6 @@ import random
 def hangman(word):
 #定義
 	#初期値
-	word_t = word
 	echo1 = []
 	for c in word:
 		echo1.append("_")
@@ -63,6 +62,6 @@ def hangman(word):
 #実行
 #単語の選択
 words = ["dog","cat","bird","ant"]
-kotoba = words[random.randrange(3)]
+kotoba = words[random.randrange(4)]
 
 hangman(kotoba)
